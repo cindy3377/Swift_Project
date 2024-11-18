@@ -27,8 +27,8 @@
 		D7D8392B2CE92D50005C2B26 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D8392A2CE92D50005C2B26 /* Color+Extensions.swift */; };
 		D7D8392D2CE9332D005C2B26 /* MemberData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D8392C2CE9332D005C2B26 /* MemberData.swift */; };
 		D7D8392F2CE93A86005C2B26 /* PreferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D8392E2CE93A86005C2B26 /* PreferencesView.swift */; };
-		D7D839312CEA04C5005C2B26 /* mps.json in Resources */ = {isa = PBXBuildFile; fileRef = D7D839302CEA04C5005C2B26 /* mps.json */; };
 		D7D839332CEA85D9005C2B26 /* parliamentImages.png in Resources */ = {isa = PBXBuildFile; fileRef = D7D839322CEA85D9005C2B26 /* parliamentImages.png */; };
+		F81258072CEB22BE0074DF24 /* mps.json in Resources */ = {isa = PBXBuildFile; fileRef = F81258062CEB22BE0074DF24 /* mps.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,8 +72,8 @@
 		D7D8392A2CE92D50005C2B26 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
 		D7D8392C2CE9332D005C2B26 /* MemberData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberData.swift; sourceTree = "<group>"; };
 		D7D8392E2CE93A86005C2B26 /* PreferencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesView.swift; sourceTree = "<group>"; };
-		D7D839302CEA04C5005C2B26 /* mps.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = mps.json; path = ../../../../Downloads/mps.json; sourceTree = "<group>"; };
 		D7D839322CEA85D9005C2B26 /* parliamentImages.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = parliamentImages.png; sourceTree = "<group>"; };
+		F81258062CEB22BE0074DF24 /* mps.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = mps.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,7 +207,7 @@
 			isa = PBXGroup;
 			children = (
 				D7D839322CEA85D9005C2B26 /* parliamentImages.png */,
-				D7D839302CEA04C5005C2B26 /* mps.json */,
+				F81258062CEB22BE0074DF24 /* mps.json */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -284,7 +284,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1520;
-				LastUpgradeCheck = 1520;
+				LastUpgradeCheck = 1610;
 				TargetAttributes = {
 					D7D838DC2CE91984005C2B26 = {
 						CreatedOnToolsVersion = 15.2;
@@ -324,10 +324,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F81258072CEB22BE0074DF24 /* mps.json in Resources */,
 				D7D838E82CE91987005C2B26 /* Preview Assets.xcassets in Resources */,
 				D7D838E52CE91987005C2B26 /* Assets.xcassets in Resources */,
 				D7D839332CEA85D9005C2B26 /* parliamentImages.png in Resources */,
-				D7D839312CEA04C5005C2B26 /* mps.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -583,7 +583,6 @@
 		D7D839052CE91987005C2B26 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -603,7 +602,6 @@
 		D7D839062CE91987005C2B26 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -623,7 +621,6 @@
 		D7D839082CE91987005C2B26 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4533U38B3B;
@@ -641,7 +638,6 @@
 		D7D839092CE91987005C2B26 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4533U38B3B;
